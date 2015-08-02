@@ -1,5 +1,14 @@
 # modaclouds-runtime-platform
 
+`modaclouds-runtime-platform` helps you to have a running MODAClouds Runtime Platform in already 
+provisioned nodes.
+
+1. Get your nodes
+2. Install
+3. Configure
+4. Run
+
+
 ## Installation
 
 This steps are suitable for any OpenSuse13.1 image.
@@ -29,6 +38,8 @@ From the account you would like to use:
     $ sudo modaclouds-flexiant-platform/sbin/install-platform.sh
 
 The last command adds mOS repo to the system, updates some system files, installs the components and configs any modaclouds service (e.g. create database in mysql for SLA Service)
+
+##Configuration
 
 ##Running the components
 
